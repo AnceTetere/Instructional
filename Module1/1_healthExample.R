@@ -8,6 +8,7 @@ age <- c(29, 67, 40, 23, 26, 34, 55, 42, 18, 73, 18)
 weight <- c(52, 65, 80, 57, 71, 90, 67, 78, 85, 50, 85)
 height <- c(165, 171, 183, 154, 173, 167, 169, 180, 190, 145, 190)
 health <- tibble(gender, age, weight, height)
+rm(gender, age, weight, height)
 
 filter(health, height > 170)
 
