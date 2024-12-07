@@ -44,3 +44,4 @@ ggplot(diamonds) +
 #3 Modify the plot further so that the variable 'cut' is shown as different box colours.
 ggplot(diamonds, aes(cut, price, colour = cut)) +
   geom_boxplot()
+
